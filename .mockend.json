@@ -4,5 +4,8 @@
     "views": "int",
     "published": "boolean",
     "createdAt": "date"
+  },
+  "User": {
+    "name":"Papa"
   }
 }
