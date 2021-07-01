@@ -22,24 +22,13 @@ how to create one and most importantly how to consume them.
 #### Get all items
 
 ```http
-  GET /api/items
+  GET https://run.mocky.io/v3/
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| `375803f5-55fd-4dd7-80dc-2e68377a14e2` | `string` | Returns Dummy Data for testing |
 
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
 
 Takes two numbers and returns the sum.
 
