@@ -1,8 +1,7 @@
 {
     "Post": {
-      "title": "string",
-      "views": "int",
-      "published": "boolean",
-      "createdAt": "date"
+      "name":"Ariel",
+      "hero":true,
+      "children": 2,
     }
   }
